@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Nav{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  
+}
+.Nav123{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-image: linear-gradient(#033747,#012733);
+}
+.Nav .logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color:white ;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.Nav .logo p:hover{
+  color: #404445;
+}
+
+.Nav ul{
+  float: right;
+}
+
+.Nav li{
+  display: inline-block;
+  list-style: none;
+}
+
+.Nav li a{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.Nav li a:hover{
+  color: #404445;
+  transition: all 0.4s ease 0s;
+}
+
+.App{
+  margin: 0;
+  padding: 0;
+  background: url("https://i.pinimg.com/564x/96/c3/33/96c33335007d28168cc5a4a0a56a5a3c.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.CV{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border-radius: 5%;
+  
+
+}
+.CV .img{
+  width: 3 px;
+}
+.CV h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.CV h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.CV p{
+  text-align: justify;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .Footer li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .Footer li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .Footer li a:hover{
+    color: #404445;
+  }
